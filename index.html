@@ -4,7 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Melvin Savaresse — Portfolio</title>
+    <title>Melvin Savaresse — Ingénieur IT</title>
+
+    <meta
+        name="description"
+        content="Portfolio de Melvin Savaresse, ingénieur informatique orienté support, infrastructures, cloud et automatisation."
+    >
 
     <link rel="stylesheet" href="style.css">
 </head>
@@ -19,6 +24,7 @@
                 <a href="#about">À propos</a>
                 <a href="#experience">Expérience</a>
                 <a href="#projects">Projets</a>
+                <a href="#skills">Compétences</a>
                 <a href="#contact">Contact</a>
             </div>
         </nav>
@@ -27,42 +33,89 @@
 
     <main>
 
+        <!-- HERO -->
+
         <section class="hero">
 
-            <p class="eyebrow">INGÉNIEUR SUPPORT · INFRASTRUCTURE IT</p>
+    <div class="hero-content">
 
-            <h1>
-                Melvin<br>
-                Savaresse
-            </h1>
+        <p class="eyebrow">
+            INGÉNIEUR SUPPORT · INFRASTRUCTURE · CLOUD
+        </p>
 
-            <p class="intro">
-                Ingénieur informatique orienté support, infrastructures
-                et environnements systèmes.
-            </p>
+        <h1>
+            Melvin<br>
+            Savaresse
+        </h1>
 
-            <div class="hero-actions">
-                <a href="#experience" class="button">Découvrir mon parcours</a>
-                <a href="#projects" class="text-link">Voir mes projets →</a>
-            </div>
+        <p class="intro">
+            Ingénieur informatique orienté infrastructures, support
+            et exploitation, avec un intérêt particulier pour le cloud,
+            l’automatisation et la sécurité des systèmes.
+        </p>
 
-        </section>
+        <div class="hero-actions">
 
+            <a href="#experience" class="button">
+                Découvrir mon parcours
+            </a>
+
+            <a href="#projects" class="text-link">
+                Voir mes projets →
+            </a>
+
+        </div>
+
+    </div>
+
+    <div class="hero-photo">
+
+        <img
+            src="photos/photo-profil.png"
+            alt="Photo de profil de Melvin Savaresse"
+        >
+
+    </div>
+
+</section>
+
+
+        <!-- À PROPOS -->
 
         <section id="about" class="section">
 
             <p class="section-label">01 — À PROPOS</p>
 
-            <h2>Construire, comprendre<br>et améliorer.</h2>
+            <h2>
+                Construire, comprendre<br>
+                et améliorer.
+            </h2>
 
             <p>
-                Jeune diplômé d’un Master en Architecture et Management
-                des Systèmes d’Information, je construis mon parcours autour
-                des infrastructures IT, du support et de l’exploitation.
+                Diplômé d’un Master en Architecture et Management des
+                Systèmes d’Information, j’ai construit mon expérience
+                au sein d’environnements d’exploitation et de support
+                informatique.
+            </p>
+
+            <p>
+                Mon parcours m’a permis de travailler sur des sujets
+                d’infrastructure, de supervision, d’administration
+                systèmes et réseaux, de support aux utilisateurs et
+                d’automatisation.
+            </p>
+
+            <p>
+                Aujourd’hui, je souhaite continuer à évoluer sur des
+                environnements techniques où je peux comprendre les
+                systèmes, résoudre les problèmes et contribuer à leur
+                amélioration.
             </p>
 
         </section>
 
+
+        <!-- EXPÉRIENCE -->
 
         <section id="experience" class="section">
 
@@ -70,54 +123,181 @@
 
             <h2>Mon parcours</h2>
 
-            <div class="experience-item">
-                <span>2026 — Aujourd’hui</span>
-                <h3>Support informatique</h3>
-                <p>Antares IT</p>
-            </div>
 
             <div class="experience-item">
+
+                <span>2026</span>
+
+                <h3>
+                    Support informatique
+                </h3>
+
+                <p>
+                    Antares IT
+                </p>
+
+                <small>
+                    Support utilisateurs · Gestion d’incidents ·
+                    Environnements Éducation nationale
+                </small>
+
+            </div>
+
+
+            <div class="experience-item">
+
                 <span>2022 — 2025</span>
-                <h3>Infrastructure & Support SI</h3>
-                <p>Dassault Aviation</p>
+
+                <h3>
+                    Infrastructure & Support SI
+                </h3>
+
+                <p>
+                    Dassault Aviation
+                </p>
+
+                <small>
+                    Infrastructure systèmes et réseaux · Supervision ·
+                    Sécurité · Automatisation · Support
+                </small>
+
+            </div>
+
+
+            <div class="experience-item">
+
+                <span>2024</span>
+
+                <h3>
+                    Développement & outils numériques
+                </h3>
+
+                <p>
+                    Erasmus Life — Las Palmas
+                </p>
+
+                <small>
+                    WordPress · Java · XML · Firebase
+                </small>
+
+            </div>
+
+
+            <div class="experience-item">
+
+                <span>2022</span>
+
+                <h3>
+                    Maintenance informatique
+                </h3>
+
+                <p>
+                    VTCAM
+                </p>
+
+                <small>
+                    Diagnostic · Maintenance · Intervention technique
+                </small>
+
             </div>
 
         </section>
 
+
+        <!-- PROJETS -->
 
         <section id="projects" class="section">
 
             <p class="section-label">03 — PROJETS</p>
 
-            <h2>Ce que je construis</h2>
+            <h2>
+                Ce que je construis
+            </h2>
 
             <div class="projects-grid">
 
+
                 <article class="project-card">
+
                     <span>01</span>
-                    <h3>Home Lab</h3>
+
+                    <h3>
+                        SIEM
+                    </h3>
+
                     <p>
-                        Supervision, sécurité et expérimentation
-                        autour des infrastructures.
+                        Conception et déploiement d’une plateforme de
+                        supervision et de centralisation des logs sur des
+                        environnements virtualisés, pour le suivi des
+                        performances et la détection d’anomalies.
                     </p>
+
+                    <small>
+                        Wazuh · Centreon · Linux · VMware
+                    </small>
+
                 </article>
 
+
                 <article class="project-card">
+
                     <span>02</span>
-                    <h3>IAM</h3>
+
+                    <h3>
+                        IAM hybride
+                    </h3>
+
                     <p>
-                        Expérimentation autour de Keycloak,
-                        Entra ID et des architectures IAM.
+                        Expérimentation d’une architecture de gestion des
+                        identités et des accès intégrant authentification,
+                        fédération et synchronisation des identités.
                     </p>
+
+                    <small>
+                        Keycloak · Entra ID · AWS · SSO · SAML · OAuth2 · SCIM
+                    </small>
+
                 </article>
 
+
                 <article class="project-card">
+
                     <span>03</span>
-                    <h3>Automatisation</h3>
+
+                    <h3>
+                        Automatisation
+                    </h3>
+
                     <p>
-                        Scripts et outils développés pour automatiser
-                        des tâches d'administration.
+                        Développement de scripts et d’outils pour automatiser
+                        des tâches d’administration et simplifier la gestion
+                        des environnements IT.
                     </p>
+
+                    <small>
+                        Python · Bash · PowerShell · Ansible · Git
+                    </small>
+
+                </article>
+
+
+                <article class="project-card">
+
+                    <span>04</span>
+
+                    <h3>
+                        Cloud & conteneurs
+                    </h3>
+
+                    <p>
+                        Expérimentations autour du déploiement d’applications,
+                        des conteneurs et des environnements cloud.
+                    </p>
+
+                    <small>
+                        Azure · AWS · Docker · Kubernetes
+                    </small>
+
                 </article>
 
             </div>
@@ -125,14 +305,81 @@
         </section>
 
 
+        <!-- COMPÉTENCES -->
+
+        <section id="skills" class="section">
+
+            <p class="section-label">04 — COMPÉTENCES</p>
+
+            <h2>
+                Mon environnement<br>
+                technique.
+            </h2>
+
+            <div class="skills-list">
+
+                <div>
+                    <h3>Infrastructure</h3>
+
+                    <p>
+                        Linux · Windows · VMware · Active Directory ·
+                        LDAP · DNS · DHCP · PKI
+                    </p>
+                </div>
+
+
+                <div>
+                    <h3>Cloud & conteneurs</h3>
+
+                    <p>
+                        Azure · AWS · Docker · Kubernetes
+                    </p>
+                </div>
+
+
+                <div>
+                    <h3>Supervision & sécurité</h3>
+
+                    <p>
+                        Centreon · Grafana · Prometheus · Wazuh
+                    </p>
+                </div>
+
+
+                <div>
+                    <h3>Automatisation</h3>
+
+                    <p>
+                        Python · Bash · PowerShell · Ansible · Git
+                    </p>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- CONTACT -->
+
         <section id="contact" class="section contact">
 
-            <p class="section-label">04 — CONTACT</p>
+            <p class="section-label">05 — CONTACT</p>
 
-            <h2>Travaillons ensemble.</h2>
+            <h2>
+                Parlons de votre<br>
+                environnement IT.
+            </h2>
 
             <a href="mailto:melvin.sava@orange.fr">
                 melvin.sava@orange.fr
+            </a>
+
+            <a
+                href="https://www.linkedin.com/in/melvinsava"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+                LinkedIn →
             </a>
 
         </section>
